@@ -1,0 +1,99 @@
+<html>
+<head>
+    <style type="text/css">
+    label{
+    color:black;
+    }
+    label{
+    font-size: 20px;
+    }
+    label{
+    font-weight: bold;
+    }
+    #Envia{
+    background: green;
+    color: white;
+    }
+    #borrar{
+    background: green;
+    color: white;
+    }
+    #nom{
+    background: orange;
+    color: white;
+    }
+    #cognom{
+    background: orange;
+    color: white;
+    }
+    #correue{
+    background: orange;
+    color: white;
+    }
+    #recomendacio{
+    background: orange;
+    color: white;
+    }
+    #numerodesamarretes{
+    background: orange;
+    color: red;
+    }
+    </style>
+</head>
+<body>
+<fieldset>
+<legend>Dades Personals
+</legend>
+<form action="">
+<label for="nom">
+Nom:
+</label>
+<input name="nom" id="nom" type="text" />
+<br/>
+<label for="cognom">
+Cognom:
+</label>
+<input name="cognom" id="cognom" type="text" />
+</form>
+<label for="correue">Correu electronic</label>
+<input type="email" name="correue" id="correue"/>
+</fidelset>
+<br/>
+<fidelset>
+<legend>Dades de la samarreta</legend>
+<br/>
+<label for="mida">Mida de la samarreta</label>
+<select name="mida">
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="XL">XL</option>
+</select>
+<br/>
+<label for="textos">Quina frase vols posar a la teva samarreta</label>
+<select name="textos" multiple="yes" size="3">
+<option value="Bon dia">Bon dia</option>
+<option value="Hoy es lunes">Hoy es lunes</option>
+<option value="HOLA">HOLA</option>
+<option value="Tengo hambre">Tengo hambre</option>
+<option value="Que tal">Que tal</option>
+</select>
+<br/>
+<label for="recomendacio">Et recomanem aquesta opcion per posar a la samarreta</label>
+<input type="text" name="recomendacio" id="recomendacio" list="recomendacion"/>
+<datalist id="recomendacion">
+<option value="Programar mola">
+</datalist>
+<br/>
+<label for="color samarreta">Color de la samarreta</label>
+<input type="color" name="color samarreta" id="color samarreta"/>
+<br/>
+<label for="numerodesamarretes">Numero de samarretes</label>
+<input type="number" name="numerodesamarretes" id="numerodesamarretes"/>
+<br/>
+<input type="submit" name="Envia" id="Envia"/>
+<br/>
+<input type="reset" name="borrar" id="borrar"/>
+</fidelset>
+<body>
+<html>
