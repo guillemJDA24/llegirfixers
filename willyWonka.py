@@ -27,5 +27,3 @@ while (not(paquet.isnumeric()) or int(paquet) < 1 or int(paquet) > 10):
     paquet = input("Quin paquet vols dels deu possibles? Entra un número entre 1 i 10")
 
 # Heu de llegir el fitxer que han triat i mostrar-li el contingut del fitxer
-fitxer = open("xocolataFabrica/xocolata"+str(paquet)+".txt","r")
-print(fitxer.read())
