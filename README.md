@@ -1,5 +1,8 @@
 # Exercicis / Reptes - Setmana 14 d'abril
 
+Aquí teniu els exercicis que corresponen a la lectura d'arxius (fitxers). Heu de fer els que pugueu amb una dedicació màxima de tres hores.
+Haurieu d'intentar com a mínim els tres primers exercicis.
+
 ## Golden ticket
 
 [![](https://img.youtube.com/vi/Qrn3r2rbciY/0.jpg)](https://youtu.be/Qrn3r2rbciY?t=50)

@@ -110,3 +110,5 @@ Aquí es fa de la mateixa manera que quan llegim element a element d'una llista.
 Vegeu en aquest video una execució de les diferents maneres de llegir un arxiu des de Python.
 
 [![asciicast](https://asciinema.org/a/Pmsi3ASwFW6lmNnZmBAtiYCqn.svg)](https://asciinema.org/a/Pmsi3ASwFW6lmNnZmBAtiYCqn)
+
+Visiteu el video a [https://asciinema.org/a/Pmsi3ASwFW6lmNnZmBAtiYCqn](https://asciinema.org/a/Pmsi3ASwFW6lmNnZmBAtiYCqn)
