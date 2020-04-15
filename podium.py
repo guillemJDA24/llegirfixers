@@ -9,6 +9,6 @@ for nomFitxer in fitxers:
     fitxer =open("curses/"+nomFitxer,"r")
     
     #Heu de pintar les tres primeres posicions 
-    print("Or ",)
-    print("Plata ",)
-    print("Bronze ",)
+    print("Or ",fitxer.readline())
+    print("Plata ",fitxer.readline())
+    print("Bronze ",fitxer.readline())
