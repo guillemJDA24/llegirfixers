@@ -7,7 +7,8 @@ for nomFitxer in fitxers:
     #s'obre per lectura
     fitxer = open('html/'+nomFitxer,"r")
     #Heu de posar la condició si està ben format o no 
-    if ():
+    
+    if (fitxer.read(15)=="<!DOCTYPE html>"):
         print("L'arxiu ",nomFitxer," està ben format")
     else:
         print("L'arxiu ",nomFitxer," no està ben format")

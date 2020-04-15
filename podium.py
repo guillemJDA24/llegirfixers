@@ -6,7 +6,8 @@ fitxers = os.listdir('curses/')
 for nomFitxer in fitxers:
     #nomFitxer conté el nom de l'arxiu que està en el directori curses 
     #TODO heu de posar a la variable fitxer l'obertura per lectura del fitxer de nom nomFitxer.
-    fitxer =open("curses/" 
+    fitxer =open("curses/"+nomFitxer,"r")
+    
     #Heu de pintar les tres primeres posicions 
     print("Or ",)
     print("Plata ",)
