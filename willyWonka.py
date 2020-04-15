@@ -25,6 +25,8 @@ paquet = input("Quin paquet vols dels deu possibles? Entra un número entre 1 i 
 
 while (not(paquet.isnumeric()) or int(paquet) < 1 or int(paquet) > 10):
     paquet = input("Quin paquet vols dels deu possibles? Entra un número entre 1 i 10")
+paquetu=open("xocolataFabrica/xocolata"+str(paquet)+".txt","r")
+print(paquetu.read())
 
 # Heu de llegir el fitxer que han triat i mostrar-li el contingut del fitxer
 # Els arxius estan a la carpeta xocolataFabrica i allà es diuen xocolata1.txt .. xocolata2.txt ... i així fins a xocolata10.txt
